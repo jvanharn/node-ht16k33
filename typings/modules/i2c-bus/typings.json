@@ -1,0 +1,10 @@
+{
+  "resolution": "main",
+  "tree": {
+    "src": "https://raw.githubusercontent.com/101100/typed-i2c-bus/3af7588bedbac004de1bd65b445381bf6268e7f4/typings.json",
+    "raw": "registry:npm/i2c-bus#1.0.0+20160516171505",
+    "main": "i2c-bus.d.ts",
+    "version": "1.0.0",
+    "name": "i2c-bus"
+  }
+}
