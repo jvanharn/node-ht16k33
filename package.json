@@ -4,6 +4,9 @@
   "description": "Use HT16K33 backpacks via I2C.",
   "main": "dist/index.js",
   "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/jvanharn/node-ht16k33"
@@ -17,8 +20,11 @@
     "typescript"
   ],
   "dependencies": {
-    "debug": "^2.6.8",
-    "eventemitter3": "^2.0.3",
-    "i2c-bus": "^1.2.2"
+    "debug": "^4.3.4",
+    "eventemitter3": "^5.0.0",
+    "i2c-bus": "^5.2.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.3"
   }
 }
